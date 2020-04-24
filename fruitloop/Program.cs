@@ -29,7 +29,7 @@ namespace fruitloop
             {
                 Console.WriteLine(i);
             }
-            for (int i=1; i<WordValue.Length; i+=2) // displays every other letter of input
+            for (int i=0; i<WordValue.Length; i+=2) // displays every other letter of input
             {
                 Console.WriteLine(WordValue[i]);
             }
