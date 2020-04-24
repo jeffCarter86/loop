@@ -4,3 +4,4 @@ C:\Users\jeff\Desktop\school\week3\projects\fruitloop\fruitloop\bin\Debug\fruitl
 C:\Users\jeff\Desktop\school\week3\projects\fruitloop\fruitloop\obj\Debug\fruitloop.csproj.CoreCompileInputs.cache
 C:\Users\jeff\Desktop\school\week3\projects\fruitloop\fruitloop\obj\Debug\fruitloop.exe
 C:\Users\jeff\Desktop\school\week3\projects\fruitloop\fruitloop\obj\Debug\fruitloop.pdb
+C:\Users\jeff\Desktop\school\week3\projects\fruitloop\fruitloop\obj\Debug\fruitloop.csprojAssemblyReference.cache
