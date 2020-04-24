@@ -10,10 +10,11 @@ namespace fruitloop
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine("Value of i: {0}", i);
-            }
+           
+            for (int i = 0; i <= 5; i++)
+                i = int.Parse(Console.ReadLine());
+            for (int i = 0; i >=0; i--)
+                Console.WriteLine(i);
         }
     }
 }
