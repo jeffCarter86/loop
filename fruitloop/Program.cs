@@ -10,11 +10,21 @@ namespace fruitloop
     {
         static void Main(string[] args)
         {
+            int word;
+            string WordValue;
 
-            for (int i = 10; i > 0; i--)
+            WordValue = Console.ReadLine();
+
+            word = (WordValue.Length);
+
+
+            for (int i = 0; i < word+1; i++)
             {
-                Console.WriteLine( i);
+                Console.WriteLine(i);
             }
+
+
+            
 
 
         }
