@@ -17,22 +17,33 @@ namespace fruitloop
 
             word = (WordValue.Length);
 
-
-            for (int i = 0; i < word; i++)
+           foreach (char c in WordValue)
             {
-                Console.WriteLine(i);
-            }
-
-            Console.ReadLine();
-
-            Console.WriteLine("Enter Another word");
-            foreach (char c in WordValue)
-            {
-                Console.WriteLine(c);
+                Console.WriteLine(c); //alternate to spell world invidual letters
             }
             for (int i = 0; i < WordValue.Length; i++)
             {
                 Console.WriteLine(WordValue[i]);
+            }
+            for (int i = 0; i < word; i++)
+            {
+                Console.WriteLine(i);
+            }
+            for (int i=1; i<WordValue.Length; i+=2)
+            {
+                Console.WriteLine(WordValue[i]);
+            }
+
+            if (word % 24 ==0)
+            {
+           for  (int i = 0; i < WordValue.Length; i += 3)
+                {
+                    Console.WriteLine(WordValue[i]);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Not divisible by 3");
             }
 
 
