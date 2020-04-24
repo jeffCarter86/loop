@@ -34,7 +34,7 @@ namespace fruitloop
                 Console.WriteLine(WordValue[i]);
             }
 
-            if (word % 24 ==0)
+            if (word % 3 ==0)
             {
            for  (int i = 0; i < WordValue.Length; i += 3)
                 {
