@@ -21,7 +21,7 @@ namespace fruitloop
             {
                 Console.WriteLine(c); //alternate to spell word invidual letters
             }
-            for (int i = 0; i < WordValue.Length; i++) //spell individual letters of word
+            for (int i = 0; i < word; i++) //spell individual letters of word
             {
                 Console.WriteLine(WordValue[i]);
             }
@@ -29,14 +29,14 @@ namespace fruitloop
             {
                 Console.WriteLine(i);
             }
-            for (int i=0; i<WordValue.Length; i+=2) // displays every other letter of input
+            for (int i=0; i< word; i += 2) // displays every other letter of input
             {
                 Console.WriteLine(WordValue[i]);
             }
 
             if (word % 3 ==0) //sees if a word or phrase is divisible completely by 3
             {
-           for  (int i = 0; i < WordValue.Length; i += 3) //if divisible by 3 prints approppiate letter
+           for  (int i = 0; i < word; i += 3) //if divisible by 3 prints approppiate letter
                 {
                     Console.WriteLine(WordValue[i]); 
                 }
